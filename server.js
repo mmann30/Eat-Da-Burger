@@ -10,9 +10,8 @@ var app = express();
 // Establishing a PORT
 var PORT = process.env.PORT || 3000;
 
-//
-// Serve static content here...
-//
+// Serve static content
+app.use(express.static(__dirname + "/public"));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 
