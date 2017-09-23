@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     var connection = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "", //need to provide local password
+    password: "4nsicDNA", //need to provide local password
     database: "burgers_db"
     });
 };
